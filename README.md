@@ -9,3 +9,9 @@ https://elfinalist.github.io/POLITICO/login.html
 
 #### Signup:
 https://elfinalist.github.io/POLITICO/signup.html
+
+#### Party registration
+https://elfinalist.github.io/POLITICO/partyreg.html
+
+#### Political parties
+https://elfinalist.github.io/POLITICO/parties.html#
