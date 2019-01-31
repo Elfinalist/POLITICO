@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background:url(Politics-of-nature.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    background: rgba(0,0,0,0.5);
+    padding: 15px;
+}
+
+
+
+/** cart table **/
+#list {
+      margin: auto;
+      width: 70%;
+      text-align: center;
+      color: white; 
+      background: rgba(0,0,0,0.5);
+      border: 2px solid white;
+      padding: 15px;
+}
+#list thead th{
+    padding:10px 0;
+    font-weight: bold;
+}
+#list thead th.first{
+    width: 175px;
+}
+#list thead th.second{
+    width:45px;
+}
+#list thead th.third{
+    width:230px
+}
+#list thead th.fourth{
+    width:160px
+}
+#list thead th.fifth{
+    width:20px;
+}
+
+
+#list tbody td {
+    text-align:center;
+    margin-top: 6px;
+}
+tr.productitm {
+    height:65px;
+    line-height:65px;
+    bottom-border: 1px solid #d7dbe0;
+}
+.remove {
+    cursor: pointer;
+    position: relative;
+    right: 12px;
+    top: 5px;
+}
+
+
+.edit{
+    cursor: pointer;
+    position: relative;
+    right: 12px;
+    top: 5px;
+}
+
+#sub {
+    width:200px;
+    border:none;
+    outline:none;
+    height:40px;
+    background:#fb2525;
+    color: #fff;
+    font-size:18px;
+    border-radius: 50px;
+
+}
+#sub:hover{
+    cursor:pointer;
+    background: #ffc107;
+    color: #000;
+}
+
+::placeholder{
+    color: white;
