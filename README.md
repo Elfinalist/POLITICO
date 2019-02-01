@@ -18,3 +18,9 @@ https://elfinalist.github.io/POLITICO/parties.html#
 
 #### Vote in politicians
 https://elfinalist.github.io/POLITICO/politicians.html
+
+#### New office Registration
+https://elfinalist.github.io/POLITICO/officereg.html
+
+#### User profile
+https://elfinalist.github.io/POLITICO/profile.html
