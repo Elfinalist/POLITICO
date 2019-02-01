@@ -24,3 +24,6 @@ https://elfinalist.github.io/POLITICO/officereg.html
 
 #### User profile
 https://elfinalist.github.io/POLITICO/profile.html
+
+#### Vie for seat
+https://elfinalist.github.io/POLITICO/vie.html
