@@ -1,14 +1,14 @@
 body{
     margin: 0;
     padding: 0;
-    background: url(Politics-of-nature.jpg);
+    background: url(../assets/Politics-of-nature.jpg);
     background-size: cover;
     background-position: center;
     font-family: sans-serif;
 }
 
-.Signupbox{
-    width:350px;
+.loginbox{
+    width:320px;
     height:420px;
     background: #000;
     color: #fff;
@@ -30,7 +30,7 @@ body{
 }
 
 
-.Signupbox h1{
+.loginbox h1{
     margin: 0;
     padding: 0 0 20px;
     text-align: center;
@@ -38,20 +38,22 @@ body{
     font-family: 'Times New Roman', Times, serif;
 }
 
-.Signupbox p{
+.loginbox p{
     margin: 0;
     padding: 0;
     font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
 }
 
  
-.Signupbox input{
+.loginbox input{
     width:100%;
     margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 
-.Signupbox input[type="text"], input[type="password"], input[type="email"], input[type="retype password"]
+.loginbox input[type="text"], input[type="password"]
 {
     border: none;
     border-bottom: 1px solid #fff;
@@ -60,9 +62,10 @@ body{
     height: 40px;
     color: #fff;
     font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-.Signupbox input[type= "submit"]
+.loginbox input[type= "submit"]
 {
     border:none;
     outline:none;
@@ -74,7 +77,7 @@ body{
 
 }
 
-.Signupbox input[type="submit"]:hover
+.loginbox input[type="submit"]:hover
 {
     cursor:pointer;
     background: #ffc107;
@@ -82,14 +85,16 @@ body{
 
 }
 
-.Signupbox a{
+.loginbox a{
     text-decoration: none;
     font-size: 12px;
     line-height: 20px;
     color: darkgrey;
+    font-family: 'Times New Roman', Times, serif;
+
 }
 
-.Signupbox a:hover
+.loginbox a:hover
 {
     color: #ffc107
 }

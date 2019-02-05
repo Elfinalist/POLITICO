@@ -5,20 +5,26 @@
 }
 
 body{
-    background:url(Politics-of-nature.jpg) no-repeat center fixed;
+    background:url(../assets/Politics-of-nature.jpg) no-repeat center fixed;
     background-size: cover;
 }
-
 h1{
     text-align: center;
     color: white;
     background: rgba(0,0,0,0.5);
     padding: 15px;
 }
-
-
+h2{
+    text-align: center;
+    color: white;
+    background: rgba(0,0,0,0.5);
+    padding: 15px;
+}
 
 /** cart table **/
+
+
+
 #list {
       margin: auto;
       width: 70%;
@@ -28,6 +34,8 @@ h1{
       border: 2px solid white;
       padding: 15px;
 }
+
+
 #list thead th{
     padding:10px 0;
     font-weight: bold;
