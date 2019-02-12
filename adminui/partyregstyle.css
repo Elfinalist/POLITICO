@@ -9,6 +9,37 @@ body{
     background-size: cover;
 }
 
+.menu {
+    float:left;
+    line-height: 50px;
+    margin: 0 6em;
+}
+
+.menu ul{
+    list-style: none;
+
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+ .menu ul li a {
+     text-decoration: none;
+     color: #fff;
+     font-size: 16px;
+     font-weight: lighter;
+     padding: 0 20px;
+ }
+
+ ul li:nth-child(5) a{
+     color: #009f8b;
+     border: 1px solid #009f8b;
+     padding: 10px 20px;
+     border-radius:  4px;
+ }
+
+
 h1{
     text-align: center;
     color: white;
@@ -65,4 +96,7 @@ h2{
 ::placeholder{
     color: white;
 }
+
+
+
 

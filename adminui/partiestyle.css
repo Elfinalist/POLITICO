@@ -9,6 +9,43 @@ body{
     background-size: cover;
 }
 
+
+
+
+.menu {
+    float:left;
+    line-height: 50px;
+    margin: 0 6em;
+}
+
+.menu ul{
+    list-style: none;
+
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+ .menu ul li a {
+     text-decoration: none;
+     color: #fff;
+     font-size: 16px;
+     font-weight: lighter;
+     padding: 0 20px;
+ }
+
+ ul li:nth-child(5) a{
+     color: #009f8b;
+     border: 1px solid #009f8b;
+     padding: 10px 20px;
+     border-radius:  4px;
+ }
+
+
+
+
+
 h1{
     text-align: center;
     color: white;
@@ -17,8 +54,10 @@ h1{
 }
 
 
-
 /** cart table **/
+
+
+
 #list {
       margin: auto;
       width: 70%;
@@ -28,6 +67,8 @@ h1{
       border: 2px solid white;
       padding: 15px;
 }
+
+
 #list thead th{
     padding:10px 0;
     font-weight: bold;
@@ -73,22 +114,5 @@ tr.productitm {
     top: 5px;
 }
 
-#sub {
-    width:200px;
-    border:none;
-    outline:none;
-    height:40px;
-    background:#fb2525;
-    color: #fff;
-    font-size:18px;
-    border-radius: 50px;
 
-}
-#sub:hover{
-    cursor:pointer;
-    background: #ffc107;
-    color: #000;
-}
 
-::placeholder{
-    color: white;

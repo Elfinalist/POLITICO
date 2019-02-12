@@ -98,3 +98,24 @@ body{
 {
     color: #ffc107
 }
+
+#sub {
+    width:260px;
+    border:none;
+    outline:none;
+    height:40px;
+    background:#fb2525;
+    color: #fff;
+    font-size:18px;
+    border-radius: 50px;
+
+}
+#sub:hover{
+    cursor:pointer;
+    background: #ffc107;
+    color: #000;
+}
+
+::placeholder{
+    color: white;
+}
